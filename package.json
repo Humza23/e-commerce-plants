@@ -1,5 +1,6 @@
 {
   "name": "web-sprint-challenge-advanced-react",
+  "homepage": "https://humza23.github.io/e-commerce-plants",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,6 +8,7 @@
     "@testing-library/react": "^10.0.3",
     "@testing-library/user-event": "^10.1.0",
     "axios": "^0.19.2",
+    "gh-pages": "^3.2.3",
     "mutationobserver-shim": "^0.3.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -15,6 +17,8 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
