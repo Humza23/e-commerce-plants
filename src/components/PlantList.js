@@ -121,11 +121,6 @@ export default class PlantList extends Component {
   state = {
     plants: [],
     }
-  // add state with a property called "plants" - initialize as an empty array
-
-  // when the component mounts:
-  //   - fetch data from the server endpoint - http://localhost:3333/plants
-  //   - set the returned plants array to this.state.plants
 
   /*********  DON'T CHANGE ANYTHING IN THE RENDER FUNCTION *********/
   componentDidMount() {
