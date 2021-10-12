@@ -119,7 +119,7 @@ const plantsData = [
 
 export default class PlantList extends Component {
   state = {
-    plants: plantsData,
+    plants: [],
     }
   // add state with a property called "plants" - initialize as an empty array
 
@@ -129,8 +129,10 @@ export default class PlantList extends Component {
 
   /*********  DON'T CHANGE ANYTHING IN THE RENDER FUNCTION *********/
   componentDidMount() {
-    console.log('hi', this.state.plants);
-  }
+        this.setState({
+          plants: plantsData
+        })
+      }
 
   render() {
     return (
