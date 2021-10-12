@@ -47,7 +47,7 @@ function App() {
         </nav>
         <Route
           exact
-          path="/"
+          path="/e-commerce-plants"
           render={() => <PlantList addToCart={addToCart} />}
         />
         <Route
