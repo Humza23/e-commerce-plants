@@ -31,7 +31,7 @@ function App() {
           </h1>
           <ul className="steps">
             <li>
-              <NavLink exact to="/e-commerce-plants">
+              <NavLink to="/e-commerce-plants">
                 Plants
               </NavLink>
             </li>
