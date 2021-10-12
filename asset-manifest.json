@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/e-commerce-plants/static/css/main.66d197e0.chunk.css",
-    "main.js": "/e-commerce-plants/static/js/main.ddf9d904.chunk.js",
-    "main.js.map": "/e-commerce-plants/static/js/main.ddf9d904.chunk.js.map",
+    "main.js": "/e-commerce-plants/static/js/main.e6b6469a.chunk.js",
+    "main.js.map": "/e-commerce-plants/static/js/main.e6b6469a.chunk.js.map",
     "runtime-main.js": "/e-commerce-plants/static/js/runtime-main.8dbf225b.js",
     "runtime-main.js.map": "/e-commerce-plants/static/js/runtime-main.8dbf225b.js.map",
     "static/js/2.77f360a5.chunk.js": "/e-commerce-plants/static/js/2.77f360a5.chunk.js",
     "static/js/2.77f360a5.chunk.js.map": "/e-commerce-plants/static/js/2.77f360a5.chunk.js.map",
     "index.html": "/e-commerce-plants/index.html",
-    "precache-manifest.b224093f00971a3cb27f7583424542b7.js": "/e-commerce-plants/precache-manifest.b224093f00971a3cb27f7583424542b7.js",
+    "precache-manifest.dcfb763a1181022f3d10144910569ee4.js": "/e-commerce-plants/precache-manifest.dcfb763a1181022f3d10144910569ee4.js",
     "service-worker.js": "/e-commerce-plants/service-worker.js",
     "static/css/main.66d197e0.chunk.css.map": "/e-commerce-plants/static/css/main.66d197e0.chunk.css.map",
     "static/js/2.77f360a5.chunk.js.LICENSE.txt": "/e-commerce-plants/static/js/2.77f360a5.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.8dbf225b.js",
     "static/js/2.77f360a5.chunk.js",
     "static/css/main.66d197e0.chunk.css",
-    "static/js/main.ddf9d904.chunk.js"
+    "static/js/main.e6b6469a.chunk.js"
   ]
 }
