@@ -121,7 +121,6 @@ export default class PlantList extends Component {
     plants: [],
     }
 
-  /*********  DON'T CHANGE ANYTHING IN THE RENDER FUNCTION *********/
   componentDidMount() {
         this.setState({
           plants: plantsData

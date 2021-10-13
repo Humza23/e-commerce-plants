@@ -1,7 +1,5 @@
 import React from "react";
 
-/********* DO NOT DO ANYTHING IN THIS COMPONENT *********/
-
 export default function ShoppingCart(props) {
   const total = props.cart.reduce((sum, d) => sum + d.price, 0);
   return (
