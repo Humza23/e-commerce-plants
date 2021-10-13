@@ -9,7 +9,7 @@ const plantsData = [
     difficulty: "easy",
     light: "direct",
     img:
-      "https://cdn.shopify.com/s/files/1/2781/9558/products/PEPEROMIA_ROSSO-1_800x.png?v=1587156590",
+    "http://cdn.shopify.com/s/files/1/0285/8385/4115/products/1-Peperomia-Rosso-4MAIN_1800x1800_88f3d5ba-a35d-4633-a7c2-224da7c3eb82_grande.jpg?v=1615407552",
     sizes: ["small"],
     watering: 2,
     description:
@@ -79,7 +79,7 @@ const plantsData = [
     difficulty: "medium",
     light: "indirect",
     img:
-      "https://cdn.shopify.com/s/files/1/2781/9558/products/FERN_RABBITSFOOT-1_800x.png?v=1587152433",
+    "https://cdn.shopify.com/s/files/1/0114/6735/8272/products/Black_Ceramic_Rabbits_foot_fern_compressed.jpg?v=1597240240",
     sizes: ["small"],
     watering: 4,
     description:
@@ -107,7 +107,7 @@ const plantsData = [
     difficulty: "medium",
     light: "indirect",
     img:
-      "https://cdn.shopify.com/s/files/1/2781/9558/products/FERN_STAGHORN-11_800x.png?v=1587427931",
+    "https://cdn.shopify.com/s/files/1/0114/6735/8272/products/Staghorn_Fern_White_Pot_Compressed.jpg?v=1597247489",
     sizes: ["small"],
     watering: 2,
     description:
