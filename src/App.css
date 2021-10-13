@@ -265,25 +265,3 @@ pre {
     padding: 2rem 0.25rem;
   }
 }
-
-@media screen and (max-width: 425px) {
-  .container {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    
-  }
-  .container h1 {
-    font-size: 1.75rem;
-    padding-right: 0.5rem;
-  }
-}
-@media screen and (max-width: 403px) {
-  .container {
-    display: flex;
-    justify-content: center;
-  }
-  .container h1 {
-    font-size: 1.25rem;
-  }
-}
