@@ -32,7 +32,7 @@ function App() {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/cart">
+              <NavLink to="/e-commerce-plants/cart">
                 Cart
                 <span className="cart-badge">
                   {cart.length > 0 && cart.length}
@@ -42,11 +42,11 @@ function App() {
           </ul>
         </nav>
         <Route
-          path="/e-commerce-plants"
+          exact path="/e-commerce-plants"
           render={() => <PlantList addToCart={addToCart} />}
         />
         <Route
-          path="/cart"
+          path="/e-commerce-plants/cart"
           render={(props) => (
             <ShoppingCart
               {...props}
@@ -55,7 +55,7 @@ function App() {
             />
           )}
         />
-        <Route path="/checkout" component={CheckoutForm} />
+        <Route path="/e-commerce-plants/checkout" component={CheckoutForm} />
       </Router>
     </div>
   );

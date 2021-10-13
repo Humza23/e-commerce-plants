@@ -23,7 +23,7 @@ export default function ShoppingCart(props) {
         <p className="total">Total: ${total}</p>
         <button
           className="checkout"
-          onClick={() => props.history.push("/checkout")}
+          onClick={() => props.history.push("/e-commerce-plants/checkout")}
         >
           Checkout
         </button>

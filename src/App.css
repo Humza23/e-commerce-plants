@@ -104,7 +104,8 @@ p {
 }
 
 .cart .plant-image {
-  height: 1.5rem;
+  height: 8rem;
+  width: 6rem;
 }
 
 .cart .plant-details {
@@ -267,8 +268,10 @@ pre {
 
 @media screen and (max-width: 425px) {
   .container {
-    max-width: 100%;
-    margin-left: 7rem;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    
   }
   .container h1 {
     font-size: 1.75rem;
@@ -276,10 +279,11 @@ pre {
   }
 }
 @media screen and (max-width: 403px) {
+  .container {
+    display: flex;
+    justify-content: center;
+  }
   .container h1 {
     font-size: 1.25rem;
   }
-  .steps a {
-    font-size: 1rem;
-}
 }
