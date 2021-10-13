@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-  max-width: 70%;
+  max-width: 75%;
   margin: 0 auto;
   border-bottom: 1px solid #cf0;
   display: flex;
@@ -151,7 +151,7 @@ label {
   margin-bottom: 13px;
   margin-top: 20px;
   color: white;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 200;
 }
 
@@ -215,8 +215,8 @@ button {
   margin-top: 1rem;
   border: 1px solid #333;
   text-transform: uppercase;
-  padding: 0.5rem .75rem;
-  border-radius: 4px;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.25rem;
 }
 
 pre {
@@ -241,8 +241,8 @@ pre {
 
 .steps li {
   background: #cf0;
-  padding: .1rem 1rem;
-  margin-right: .75rem;
+  padding: 0.1rem 1rem;
+  margin-right: 0.75rem;
   position: relative;
 }
 
@@ -255,12 +255,31 @@ pre {
   border-bottom: 2px solid !important;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   .plant-list {
     justify-content: center;
     max-width: 100%;
   }
   .plant-card {
-    padding: 2rem .25rem;
+    padding: 2rem 0.25rem;
   }
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    max-width: 100%;
+    margin-left: 7rem;
+  }
+  .container h1 {
+    font-size: 1.75rem;
+    padding-right: 0.5rem;
+  }
+}
+@media screen and (max-width: 403px) {
+  .container h1 {
+    font-size: 1.25rem;
+  }
+  .steps a {
+    font-size: 1rem;
+}
 }
